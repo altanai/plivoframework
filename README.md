@@ -11,8 +11,11 @@ in a simple and extensible manner, using any web language you know.
  1. sudo pip install virtualenv
  2. mkdir /var/opt/plivo
  3. sudo ./scripts/plivo_install.sh /var/opt/plivo
-
-
+ 4. Run command 
+ ```
+ plivo (start|stop|restart|status|list|reload) [CONFIGNAME]
+	[CONFIGNAME] plivo instance to manage (optional)
+ ```
 ## Documentation
 
 See `Plivo Documentation <http://docs.plivo.org>`_ for more information.
@@ -23,3 +26,6 @@ See `Plivo Documentation <http://docs.plivo.org>`_ for more information.
 Copyright (c) 2011 Plivo Inc <hello@plivo.com>
 
 Plivo Framework is distributed under the terms of the Mozilla Public License Version 1.1, see `LICENSE`.
+
+## FAQ and References 
+- tbd 
