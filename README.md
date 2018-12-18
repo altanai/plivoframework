@@ -8,7 +8,7 @@ a wide variety of applications(IVRs, Billing System, Voicemail, Click to Call et
 in a simple and extensible manner, using any web language you know.
 
 ## Installation 
- 1. install virtualenv
+ 1. sudo pip install virtualenv
  2. mkdir /var/opt/plivo
  3. sudo ./scripts/plivo_install.sh /var/opt/plivo
 
